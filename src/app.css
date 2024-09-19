@@ -1,0 +1,23 @@
+:root {
+  /* Default mode (light mode) */
+  --bg-color: #FCFCFC;
+  --text-color: #050505;
+  --text-color-hover: #9e9e9e;
+  --font-family: "Space Grotesk";
+}
+
+html.dark {
+  --bg-color: #050505;
+  --text-color: #FCFCFC;
+}
+
+html.custom {
+  --bg-color: #0E60F9;
+  --text-color: #FCFCFC;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
