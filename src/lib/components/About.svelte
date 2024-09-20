@@ -1,3 +1,15 @@
+<script>
+  const coreListItems = [
+    'Front end Development',
+    'Framework-Agnostic',
+    'Preference for Vue',
+    'Component-Driven development',
+    'Collaborative and Open to Learning'
+  ]
+
+</script>
+
+
 <style>
 .core-container {
   margin-bottom: 3rem
@@ -14,10 +26,8 @@ ul {
 <div class="core-container">
   <p>Core:</p>
   <ul>
-    <li>Front end Development</li>
-    <li>Framework-Agnostic Solutions</li>
-    <li>Preference for Vue</li>
-    <li>Component-Driven development</li>
-    <li>Collaborative and Open to Learning</li>
+    {#each coreListItems as item}
+      <li>{item}</li>
+    {/each}
   </ul>
 </div>
