@@ -23,9 +23,13 @@ html.custom {
 
 body {
   background-color: var(--bg-color);
+  padding: 1.5rem;
+  display: flex;
+}
+
+* {
   color: var(--text-color);
   font-family: var(--font-family);
   font-size: var(--font-size);
-  padding: 1.5rem;
-  display: flex;
+  border-color: var(--text-color);
 }

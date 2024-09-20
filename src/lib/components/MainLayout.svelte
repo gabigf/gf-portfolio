@@ -62,5 +62,5 @@ nav {
 
   <About />
   <Projects />
-  <LastUpdated />
+  <!-- <LastUpdated /> -->
 </div>
