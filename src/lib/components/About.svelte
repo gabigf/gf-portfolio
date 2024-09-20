@@ -1,6 +1,6 @@
 <style>
 .core-container {
-  margin-bottom: 2rem
+  margin-bottom: 3rem
 }
 
 ul {

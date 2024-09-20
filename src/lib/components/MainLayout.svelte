@@ -36,6 +36,9 @@ nav {
   color: inherit;
 }
 
+.link-text:hover {
+  color: var(--text-color-hover);
+}
 </style>
 
 
