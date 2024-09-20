@@ -1,9 +1,16 @@
 <script>
   import '../app.css';
-  import { Nav } from '$lib'
+  import { MainLayout } from '$lib'
 </script>
 
+<style>
+  .logo {
+    font-size: 2rem;
+    width: 15%;
+  }
+  </style>
 
-<Nav />
 
-<h1>Welcome to SvelteKit</h1>
+
+<div class="logo">gg</div>
+<MainLayout />
