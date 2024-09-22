@@ -8,7 +8,7 @@
     { id: 'custom', color: '#0E60F9' } // Custom mode button
   ];
 
-	let currentTheme = 'light';
+	let currentTheme = 'dark';
 
   // Reactive statement to only show the two buttons that are not active
   $: visibleThemes = themes.filter(theme => theme.id !== currentTheme);
@@ -24,9 +24,9 @@
 
   // Set the initial theme when the component loads
   onMount(() => {
-		// Get theme from localStorage or default to 'light'
+		// Get theme from localStorage or default to 'dark'
 		if (typeof window !== 'undefined') {
-			currentTheme = localStorage.getItem('theme') || 'light';
+			currentTheme = localStorage.getItem('theme') || 'dark';
 			document.documentElement.className = currentTheme;
 		}
 	});

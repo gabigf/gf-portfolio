@@ -4,6 +4,12 @@
   export let isActive;
   export let toggle;
   export let index;
+
+  $:  imageLoaded = false;
+
+  function handleImageLoad() {
+    imageLoaded = true;
+  }
 </script>
 
 <style>
@@ -21,7 +27,9 @@
 
   .accordion-content {
     overflow: hidden;
-    padding: 0 1em;
+    padding: 0;
+    transform: translateZ(0); /* forces hardware acceleration */
+    transition: transform 0.3s ease, opacity 0.3s ease;
   }
 
   .accordion-item {
@@ -47,9 +55,14 @@
   </button>
   {#if isActive}
     <div class="accordion-content" transition:slide>
-      <img src={project.mediaSrc} alt={project.mediaAlt}>
+
+      {#await imageLoaded}
+      <p>Loading ..</p>
+      {:then}
+      <img src={project.mediaSrc} alt={project.mediaAlt} on:load={handleImageLoad}>
+      {/await}
       <p>{project.text}</p>
-      <div>
+      <div class="s">
         <p>
           <a href={project.githubLink} target="_blank" rel="noopener noreferrer">Github</a>
         </p>

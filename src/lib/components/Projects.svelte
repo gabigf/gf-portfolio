@@ -1,5 +1,13 @@
 <script>
+   import { onMount } from 'svelte';
 	import { Project } from '$lib';
+
+  onMount(() => {
+    projects.forEach((project) => {
+      const img = new Image();
+      img.src = project.mediaSrc; // Preload the image
+    });
+  });
 
   const projects = [
     {
@@ -15,7 +23,7 @@
     {
       name: 'Another Project',
       year: '2026',
-      mediaSrc: 'none',
+      mediaSrc: '/images/pizzaNGo.png',
       mediaType: 'image',
       mediaAlt: 'another project alt',
       text: 'I worked on this plugin for chatGPT that allows users to poop.',
