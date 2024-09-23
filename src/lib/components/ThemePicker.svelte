@@ -3,9 +3,9 @@
 
 
   const themes = [
-    { id: 'light', color: '#FCFCFC' }, // Light mode button
-    { id: 'dark', color: '#050505' },  // Dark mode button
-    { id: 'custom', color: '#0E60F9' } // Custom mode button
+    { id: 'light', color: '#FCFCFC' },
+    { id: 'dark', color: '#050505' },
+    { id: 'custom', color: '#0E60F9' }
   ];
 
 	let currentTheme = 'dark';

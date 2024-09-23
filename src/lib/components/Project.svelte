@@ -4,12 +4,6 @@
   export let isActive;
   export let toggle;
   export let index;
-
-  $:  imageLoaded = false;
-
-  function handleImageLoad() {
-    imageLoaded = true;
-  }
 </script>
 
 <style>
@@ -45,6 +39,11 @@
   img {
     max-width: 100%;
   }
+
+  .project-links {
+    display: flex;
+    gap: 1rem;
+  }
 </style>
 
 
@@ -55,14 +54,9 @@
   </button>
   {#if isActive}
     <div class="accordion-content" transition:slide>
-
-      {#await imageLoaded}
-      <p>Loading ..</p>
-      {:then}
-      <img src={project.mediaSrc} alt={project.mediaAlt} on:load={handleImageLoad}>
-      {/await}
+      <img src={project.mediaSrc} alt={project.mediaAlt} loading="lazy">
       <p>{project.text}</p>
-      <div class="s">
+      <div class="project-links">
         <p>
           <a href={project.githubLink} target="_blank" rel="noopener noreferrer">Github</a>
         </p>
