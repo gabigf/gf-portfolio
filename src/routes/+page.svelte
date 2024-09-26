@@ -1,16 +1,7 @@
 <script>
   import '../app.css';
-  import { MainLayout } from '$lib'
+  import {  MainLayout, Logo } from '$lib'
 </script>
 
-<style>
-  .logo {
-    font-size: 2rem;
-    width: 15%;
-  }
-  </style>
-
-
-
-<div class="logo">gg</div>
+<Logo />
 <MainLayout />
