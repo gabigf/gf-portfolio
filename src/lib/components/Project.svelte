@@ -32,18 +32,29 @@
   }
 
   button {
-    background-color: inherit;
+    background: none;
     border: none;
+    padding: 0;
   }
 
   img {
     max-width: 100%;
+    margin-top: 26px;
+  }
+
+  .project-text {
+    margin: 12px 0;
   }
 
   .project-links {
     display: flex;
     gap: 1rem;
+    margin-bottom: 28px;
   }
+
+  .project-links a:hover, .project-links p:hover  {
+  color: var(--text-color-hover);
+}
 </style>
 
 
@@ -54,15 +65,17 @@
   </button>
   {#if isActive}
     <div class="accordion-content" transition:slide>
-      <img src={project.mediaSrc} alt={project.mediaAlt} loading="lazy">
-      <p>{project.text}</p>
+      <button on:click={() => toggle(index)} aria-label="Clickable Image">
+        <img src={project.mediaSrc} alt={project.mediaAlt} loading="lazy">
+      </button>
+      <p class="project-text">{project.text}</p>
       <div class="project-links">
-        <p>
-          <a href={project.githubLink} target="_blank" rel="noopener noreferrer">Github</a>
-        </p>
-        <p>
-          <a href={project.liveSiteLink} target="_blank" rel="noopener noreferrer">Live Site</a>
-        </p>
+        <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+          <p>Github</p>
+        </a>
+        <a href={project.liveSiteLink} target="_blank" rel="noopener noreferrer">
+          <p>Live Site</p>
+        </a>
       </div>
     </div>
   {/if}

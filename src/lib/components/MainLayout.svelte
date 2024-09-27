@@ -10,8 +10,7 @@
 
 <style>
 .main-container {
-  width: 100%;
-  max-width: 45rem;
+  width: 600px;
 }
 
 nav {
@@ -19,6 +18,10 @@ nav {
   justify-content: space-between;
   margin-top: 24px;
   margin-bottom: 5rem;
+}
+
+p {
+  padding: 2px 0;
 }
 
 .top-right {
@@ -39,6 +42,31 @@ nav {
 
 .link-text:hover {
   color: var(--text-color-hover);
+}
+
+@media screen and (max-width: 830px) {
+  .main-container {
+    padding-left: 24px;
+  }
+
+  nav {
+    margin-bottom: 32px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .main-container {
+    width: 90%;
+  }
+  nav {
+    flex-direction: column;
+  }
+
+  .top-right {
+    align-self: start;
+    align-items: start;
+  }
 }
 </style>
 

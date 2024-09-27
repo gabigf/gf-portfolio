@@ -39,7 +39,15 @@
     cursor: pointer;
     height: 16px;
     width: 16px;
-    margin: 5px;
+    margin: 8px;
+  }
+
+  button:first-of-type  {
+    margin-left: 0;
+  }
+
+  button:last-of-type  {
+    margin-right: 0;
   }
 </style>
 

@@ -2,13 +2,6 @@
    import { onMount } from 'svelte';
 	import { Project } from '$lib';
 
-  onMount(() => {
-    projects.forEach((project) => {
-      const img = new Image();
-      img.src = project.mediaSrc; // Preload the image
-    });
-  });
-
   const projects = [
     {
       name: 'Javascript',
@@ -31,6 +24,13 @@
       liveSiteLink: 'live site link here',
     }
   ]
+  onMount(() => {
+    projects.forEach((project) => {
+      const img = new Image();
+      img.src = project.mediaSrc; // Preload the image
+    });
+  });
+
 
   let activeIndex = null;
 
@@ -44,6 +44,8 @@
     font-weight: normal;
     margin: 12px 0;
   }
+
+
 </style>
 
 

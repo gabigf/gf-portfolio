@@ -42,29 +42,8 @@ p {
 }
 
 
-/* Break points */
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 830px) {
   body {
     flex-direction: column;
-  }
-
-  .main-container {
-    padding-left: 24px;
-  }
-
-  nav {
-    margin-bottom: 32px;
-  }
-}
-
-
-@media screen and (max-width: 450px) {
-  nav {
-    flex-direction: column;
-  }
-
-  .top-right {
-    align-self: start;
   }
 }
