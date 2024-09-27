@@ -17,6 +17,7 @@
 nav {
   display: flex;
   justify-content: space-between;
+  margin-top: 24px;
   margin-bottom: 5rem;
 }
 

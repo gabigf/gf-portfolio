@@ -25,8 +25,8 @@ html.custom {
 
 body {
   margin: 0;
+  padding: 0;
   background-color: var(--bg-color);
-  padding: 1.5rem;
   display: flex;
 }
 
@@ -35,4 +35,36 @@ body {
   font-family: var(--font-family);
   font-size: var(--font-size);
   border-color: var(--text-color);
+}
+
+p {
+  margin: 0;
+}
+
+
+/* Break points */
+
+@media screen and (max-width: 700px) {
+  body {
+    flex-direction: column;
+  }
+
+  .main-container {
+    padding-left: 24px;
+  }
+
+  nav {
+    margin-bottom: 32px;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .top-right {
+    align-self: start;
+  }
 }
