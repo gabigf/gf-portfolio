@@ -4,7 +4,7 @@
 
   const projects = [
     {
-      name: 'Javascript',
+      name: 'Money manager',
       year: '2024',
       mediaSrc: '/images/pizzaNGo.png',
       mediaType: 'image',
@@ -14,7 +14,37 @@
       liveSiteLink: 'live site link here',
     },
     {
-      name: 'Another Project',
+      name: 'Personal portfolio',
+      year: '2026',
+      mediaSrc: '/images/pizzaNGo.png',
+      mediaType: 'image',
+      mediaAlt: 'another project alt',
+      text: 'I worked on this plugin for chatGPT that allows users to poop.',
+      githubLink: 'github link here',
+      liveSiteLink: 'live site link here',
+    },
+    {
+      name: 'Learning GSAP',
+      year: '2026',
+      mediaSrc: '/images/pizzaNGo.png',
+      mediaType: 'image',
+      mediaAlt: 'another project alt',
+      text: 'I worked on this plugin for chatGPT that allows users to poop.',
+      githubLink: 'github link here',
+      liveSiteLink: 'live site link here',
+    },
+    {
+      name: 'Hide Youtube thumbnail extension',
+      year: '2026',
+      mediaSrc: '/images/pizzaNGo.png',
+      mediaType: 'image',
+      mediaAlt: 'another project alt',
+      text: 'I worked on this plugin for chatGPT that allows users to poop.',
+      githubLink: 'github link here',
+      liveSiteLink: 'live site link here',
+    },
+    {
+      name: 'UX designer portfolio',
       year: '2026',
       mediaSrc: '/images/pizzaNGo.png',
       mediaType: 'image',
