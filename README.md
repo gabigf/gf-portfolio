@@ -1,38 +1,14 @@
-# create-svelte
+# Personal portfolio
+I built this portfolio to showcase some of my key projects and skills. It also served as an opportunity for me to learn Svelte, making this my first project using the framework. Through this experience, I was able to explore Svelte’s unique features while creating a clean and functional way to present my work.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+# Screenshots
+Desktop
+![Screenshot 2024-10-23 at 2 46 58 PM](https://github.com/user-attachments/assets/9e3e99f3-8114-4aa3-9d45-cc204292e67e)
 
-## Creating a project
+Mobile
+![Screenshot 2024-10-23 at 2 47 38 PM](https://github.com/user-attachments/assets/e0add9e1-56e0-41d5-b311-1e30585a706e)
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+# Improvements to be made
+Add interactive easter eggs using GSAP
+Improve the dropdown to be smoother when opening
