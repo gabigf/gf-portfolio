@@ -6,7 +6,7 @@ Desktop
 ![Screenshot 2024-10-23 at 2 46 58 PM](https://github.com/user-attachments/assets/9e3e99f3-8114-4aa3-9d45-cc204292e67e)
 
 Mobile
-![Screenshot 2024-10-23 at 2 47 38 PM](https://github.com/user-attachments/assets/e0add9e1-56e0-41d5-b311-1e30585a706e)
+![]([(https://github.com/user-attachments/assets/e0add9e1-56e0-41d5-b311-1e30585a706e] | width=100)
 
 
 # Improvements to be made
