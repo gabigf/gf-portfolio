@@ -70,12 +70,16 @@
       </button>
       <p class="project-text">{project.text}</p>
       <div class="project-links">
+        {#if project.githubLink}
         <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
           <p>Github</p>
         </a>
+        {/if}
+        {#if project.liveSiteLink}
         <a href={project.liveSiteLink} target="_blank" rel="noopener noreferrer">
           <p>Live Site</p>
         </a>
+        {/if}
       </div>
     </div>
   {/if}
