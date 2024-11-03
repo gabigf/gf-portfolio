@@ -14,7 +14,7 @@
       liveSiteLink: null,
     },
     {
-      name: 'Personal portfolio',
+      name: 'Transaction tracker',
       year: '2024',
       mediaSrc: '/images/money-manager.png',
       mediaType: 'image',
