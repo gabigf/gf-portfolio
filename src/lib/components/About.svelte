@@ -1,10 +1,9 @@
 <script>
   const coreListItems = [
-    'Front end Development',
+    'Full Stack Developer',
     'Framework-Agnostic',
-    'Preference for Vue',
-    'Component-Driven development',
-    'Collaborative and Open to Learning'
+    'Component-Driven Development',
+    'Collaborative and Open to Learning',
   ]
 
 </script>
@@ -32,7 +31,7 @@ li {
 
 
 <div class="core-container">
-  <h3 class="core-title">Core:</h3>
+  <h3 class="core-title">A little about me:</h3>
   <ul>
     {#each coreListItems as item}
       <li>{item}</li>
