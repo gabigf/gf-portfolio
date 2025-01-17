@@ -4,7 +4,6 @@
   const emailAddress = 'gabrielaguimaraesdev@gmail.com'
   const linkedInUrl = 'https://www.linkedin.com/in/gabriela-guimaraes-ferreira/'
   const githubUrl = 'https://github.com/gabigf'
-  const readCvUrl = 'https://read.cv/explore'
 </script>
 
 
@@ -82,7 +81,6 @@ p {
       <div class="link-list">
         <p><a href="{linkedInUrl}" target="_blank" class="link-text">LinkedIn</a></p>
         <p><a href="{githubUrl}" target="_blank" class="link-text">Github</a></p>
-        <p><a href="{readCvUrl}" target="_blank" class="link-text">Read.cv</a></p>
       </div>
 
       <ThemePicker />
