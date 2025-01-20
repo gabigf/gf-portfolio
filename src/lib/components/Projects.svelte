@@ -4,14 +4,14 @@
 
   const projects = [
     {
-      name: 'Learning GSAP',
+      name: 'UX designer portfolio',
       year: '2024',
-      mediaSrc: '/images/learning-gsap.png',
+      mediaSrc: '/images/martine-portfolio.png',
       mediaType: 'image',
-      mediaAlt: 'Screenshot of project page',
-      text: 'A simple project I made to document my learning of GSAP basics.',
-      githubLink: "https://github.com/gabigf/learning-gsap/tree/main/CreativeCodingClub/GSAP3Express",
-      liveSiteLink: null,
+      mediaAlt: 'Screenshot of the crypto dashboard',
+      text: '[WIP] A portfolio website for a local UX designer featuring GSAP scroll animations.',
+      githubLink: null,
+      liveSiteLink: 'https://www.martine.work/',
     },
     {
       name: 'Transaction tracker',
@@ -34,14 +34,14 @@
       liveSiteLink: null,
     },
     {
-      name: 'UX designer portfolio',
+      name: 'Learning GSAP',
       year: '2024',
-      mediaSrc: '/images/martine-portfolio.png',
+      mediaSrc: '/images/learning-gsap.png',
       mediaType: 'image',
-      mediaAlt: 'Screenshot of the crypto dashboard',
-      text: '[WIP] A portfolio website for a local UX designer featuring GSAP scroll animations.',
-      githubLink: null,
-      liveSiteLink: 'https://www.martine.work/',
+      mediaAlt: 'Screenshot of project page',
+      text: 'A simple project I made to document my learning of GSAP basics.',
+      githubLink: "https://github.com/gabigf/learning-gsap/tree/main/CreativeCodingClub/GSAP3Express",
+      liveSiteLink: null,
     }
   ]
   onMount(() => {
