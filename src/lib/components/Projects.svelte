@@ -29,7 +29,7 @@
       mediaSrc: '/images/pizzaNGo.png',
       mediaType: 'image',
       mediaAlt: 'another project alt',
-      text: 'I worked on this plugin for chatGPT that allows users to poop.',
+      text: 'A full stack application for a pizza restaurant. Users can order their pizzas and owners can manage orders and send notifications for order status.',
       githubLink: 'https://github.com/sidpatel93/Pizza-N-Go',
       liveSiteLink: null,
     },
